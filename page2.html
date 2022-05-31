@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script defer src="../JS/slide.js"></script>
+  <link rel="stylesheet" href="../css/style2.css" />
+</head>
+
+<body>
+
+  <!-- Barre de navigation -->
+  <header>
+    <a href="./index.html" style="color: aqua;">La Guitare</a>
+    <br>
+    <br>
+    <a href="./page1.html" style="color: aqua;">Histoire...</a>
+    <a href="./page3.html" style="color: aqua;">Avenir!!!</a>
+    <a href="./page2.html" style="color: aqua;">Fender</a>
+    <a href="./page2a.html" style="color: aqua;">Gibson</a>
+    <a href="./page4.html" style="color: aqua;">Contact</a>
+  </header>
+  <br>
+
+  <!-- Diaporama -->
+  <div class="slideshow-container">
+
+    <!-- Images avec chiffre et position -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="../photo/strat.jpeg" style="width:100%">
+      <div class="text">Stratocaster</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="../photo/tele.jpeg" style="width:100%">
+      <div class="text">Telecaster</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="../photo/leo fender.jpeg" style="width:100%">
+      <div class="text">Leo Fender</div>
+    </div>
+
+    <!-- Boutons Prochain/Précédant -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- Points/Cercles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <!-- Tableau comparatif de modèles de guitares Fender -->
+  <div id="Principale" align="center">
+    <h1>Fender</h1>
+    <p>Cliquez sur les images pour visiter les sites web!</p>
+    <br>
+    <table align="center" style="font-family: 'Courier New', Courier, monospace; border: 3px solid rgb(50, 41, 41)">
+
+      <tr>
+        <th>Stratocaster</th>
+        <th>VS</th>
+        <th>Telecaster</th>
+      </tr>
+
+      <!-- Liens vers les sites webs respectifs des guitares Fender -->
+      <tr>
+        <td><a href="https://www.fender.com/en/electric-guitars/stratocaster/"><img src="../photo/stratvs.jpeg"
+              width="300" height="100" alt="oops..."></a></td>
+        <td></td>
+        <td><a href="https://www.fender.com/en/electric-guitars/telecaster/"><img src="../photo/televs.jpg" width="300"
+              height="100" alt="oops..."></a></td>
+      </tr>
+      <tr>
+        <td>
+          <ol type="1">
+            <li>Design de guitare moderne #1</li>
+            <li>Technologie de micros très avancée.</li>
+            <li>Qualité exceptionnelle de composantes</li>
+            <li>Compatible avec presque tout les styles de musique</li>
+            <li>Options: Studio, Standard, Deluxe, T.V.</li>
+          </ol>
+        </td>
+        <td>
+          <ul>
+
+          </ul>
+        </td>
+        <td>
+          <ol type="i">
+            <li>Son classique de la musique country</li>
+            <li>Design ancien, mais fiable</li>
+            <li>Des composantes et un design plus simple pour réduires les coûts</li>
+            <li>Hyper-versatile et plus portatif</li>
+            <li>Options: Studio, Standard, T.V.</li>
+          </ol>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <br>
+
+  <!-- Bas de page -->
+  <footer>
+    <center>Site web crée par: Olivier Van Tassel, 0681020</center>
+  </footer>
+</body>
+
+</html>

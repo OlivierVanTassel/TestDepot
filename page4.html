@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="../JS/form.js"></script>
+    <link rel="stylesheet" href="../css/style3.css">
+</head>
+
+<body>
+
+    <!-- Barre de navigation -->
+    <header>
+        <a href="./index.html" style="color: aqua;">La Guitare</a>
+        <br>
+        <br>
+        <a href="./page1.html" style="color: aqua;">Histoire...</a>
+        <a href="./page3.html" style="color: aqua;">Avenir!!!</a>
+        <a href="./page2.html" style="color: aqua;">Fender</a>
+        <a href="./page2a.html" style="color: aqua;">Gibson</a>
+        <a href="./page4.html" style="color: aqua;">Contact</a>
+    </header>
+
+    <h1>Contact</h1>
+
+    <!-- Formulaire -->
+    <form onsubmit="return false">
+        <input type="text" placeholder="Nom" id="lastName" />
+        <br>
+        <br>
+        <input type="text" placeholder="Prénom" id="firstName" />
+        <input type="radio" id="male" name="gender" value="male"> Male
+        <input type="radio" id="female" name="gender" value="female"> Femelle
+        <br>
+        <br>
+        <input type="email" placeholder="Courriel" id="email" />
+        <input type="text" placeholder="#" id="address" />
+        <input type="text" placeholder="Adresse" id="houseNumber" />
+        <select id="country">
+            <option disabled selected value> -- pay -- </option>
+            <option value="Narnia">Canada</option>
+            <option value="Neverland">Algérie</option>
+            <option value="Vulcan">Tunisie</option>
+        </select>
+        <br>
+        <br>
+        <input type="password" placeholder="Mot de passe" id="password" />
+        <input type="password" placeholder="Mot de passe (check) " id="passwordCheck" />
+        <br>
+        <br>
+        <input type="checkbox" id="newsletter" />Envoyez-moi l'infolettre!
+        <br>
+        <br>
+        <span>Questions? / Commentaires?</span>
+        <br>
+        <textarea id="question" rows="4"></textarea>
+        <br>
+        <br>
+        <button onclick="sendContact();">Envoyer</button>
+    </form>
+    <br>
+    <br>
+
+    <!-- Bas de page -->
+    <footer>
+        <center>Site web crée par: Olivier Van Tassel, 0681020</center>
+    </footer>
+
+</body>
+
+</html>

@@ -1,13 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script defer src="../JS/counter.js"></script>
+
+    <!-- Bouton ALERTE! Date/Heure -->
+    <script type="text/javascript">
+        function show_now() {
+            var my_time = new Date();
+            document.getElementById('display').innerHTML = my_time
+        }
+    </script>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
+
 <body>
-    <div>Hello</div>
-    
+
+    <!-- Entête -->
+    <header>
+        <h1 style="color: aqua;">La Guitare</h1>
+    </header>
+    <br>
+    <br>
+
+    <!-- Compteur de visiteurs -->
+    <div>
+        <p>Nombre de visiteurs:</p>
+        <div class="website-counter"></div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Menu de navigation -->
+    <div id="master">
+        <Table align="center">
+
+            <!-- Page 1 -->
+            <th>
+                <div id="Histoire">
+                    <table>
+                        <span><a href="./page1.html"><img src="../photo/martinacoustic.jpeg" height="200px"
+                                    width="200"></a></span>
+                        <br>
+                        <p>Histoire de la guitare</p>
+                    </table>
+                </div>
+            </th>
+
+            <!-- Page 2 -->
+            <th>
+                <div id="Future">
+                    <table>
+                        <span><a href="./page3.html"><img src="../photo/GAD-3D-Printed-Guitar-Top-Bar.jpeg"
+                                    height="200px" width="200"></a></span>
+                        <br>
+                        <p>Avenir de la guitare</p>
+                    </table>
+                </div>
+            </th>
+
+            <!-- Page 3 -->
+            <th>
+                <div id="Today">
+                    <table>
+                        <span><a href="./page2.html"><img src="../photo/fender-logo.png" height="200px"
+                                    width="200"></a></span>
+                        <br>
+                        <p>Fender</p>
+                    </table>
+                </div>
+            </th>
+
+            <!-- Page 4 -->
+            <th>
+                <div id="Future">
+                    <table>
+                        <span><a href="./page2a.html"><img src="../photo/gibson-logo.png" height="200px"
+                                    width="200"></a></span>
+                        <br>
+                        <p>Gibson</p>
+                    </table>
+                </div>
+            </th>
+
+            <!-- Page 5 -->
+            <th>
+                <div id="Future">
+                    <table>
+                        <span><a href="./page4.html"><img src="../photo/batio.jpeg" height="200px"
+                                    width="200"></a></span>
+                        <br>
+                        <p>Contact</p>
+                    </table>
+                </div>
+            </th>
+        </Table>
+    </div>
+    <br>
+    <br>
+
+    <!-- Bouton ALERTE! Date/Heure -->
+    <input type=button value="Date/Heure" onclick="show_now();">
+    <div id=display></div>
+
+    <!-- À propos -->
+    <p>
+    <h1>À propos : </h1>
+    <p>J'ai choisi l'interface de mon site web instinctivement et avec les outils qui ont été mis à ma disposition
+        pendant le cours. Mes influences principals sont les années passés à naviguer le web. Bien sure, le sujet
+        m'a guidé vers un concept. Les sites webs auxquels j'ai offert des liens dans le TP sont de bons exemples
+        conceptuels en liens avec le sujet. Pour moi, le défis de l'exercice était autant dans la conceptualisation,
+        que dans l'exécution. J'ai réalisé à quel point les sites web d'aujourd'hui sont adapté à nos instincts de
+        navigation en ligne, mais aussi la complexité inhérente d'un produit aussi bien adapté à sa clientèle.</p>
+
+    <p>Je me suis aventuré presqu'à l'aveuglette dans le Javascript et avec grand plaisir. Encore une fois, un
+        nouveau language de programmation me fait comprendre les rouages de l'arrière scène d'un site web et aussi
+        la structure 3-D que le dynamisme apporte à un site web statique. Par contre, en étant a mes tout débuts
+        dans le monde de la programmation l'intégration du Javascript dans mes page web c'est avéré plus difficile
+        qu'anticipé. Au dela de l'apprentissage syntaxique, la programmation elle même du Javascript m'a forcé a mettre
+        à l'oeuvre tout mes nouvelles notions de programmation mais surtout l'état d'esprit nécéssaire à la résolution
+        de
+        problèmes logiques.</p>
+
+    <p>J'ai hâte de pouvoir pousser ces notions beaucoup plus loins dans ma vie étudiante et possiblement dans ma
+        carrière en T.I. Le cours fût une belle porte d'entré dans le monde du développement web, et débordais de
+        notions qu'y seront d'une utilité particulière dans les mois et années à venir. Merci!</p>
+    </div>
+
+    <!-- Bas de page -->
+    <h2>
+        <center>Site web crée par: Olivier Van Tassel, 0681020</center>
+    </h2>
 </body>
+
 </html>

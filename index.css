@@ -1,0 +1,90 @@
+/* STYLE INDEX */
+
+header {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  text-align: center;
+  text-decoration-color: aliceblue;
+  border: 10px solid black;
+  padding: 175px;
+  background-image: url(../photo/generic\ guitar.jpeg);
+  background-size: auto;
+}
+
+#master {
+  display: flex;
+  align-items: center;
+  float: center;
+}
+
+#Histoire {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  text-align: center;
+  border: 1px solid black;
+  width: 200px;
+}
+
+#Today {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  text-align: center;
+  border: 1px solid black;
+  width: 200px;
+}
+
+#Future {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  text-align: center;
+  border: 1px solid black;
+  width: 200px;
+}
+
+footer {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  border: 2px solid black;
+  width: auto;
+  margin: auto;
+  vertical-align: center;
+}
+
+/* Compteur */
+body,
+.website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  height: 100vh;
+}
+
+.website-counter {
+  background-color: #0b0a0a;
+  height: 30px;
+  width: 40px;
+  color: white;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Bas de page */
+footer {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  border: 2px solid black;
+  width: auto;
+  margin: auto;
+  vertical-align: center;
+}

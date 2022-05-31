@@ -1,0 +1,46 @@
+/* STYLE PAGE 4, 5 */
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+    text-decoration-color: aliceblue;
+    border: 10px solid black;
+    padding: 25px;
+    background-image: url(../photo/generic\ guitar.jpeg);
+    background-size: auto;
+}
+
+/* Lecteur audio */
+audio {
+    display: block;
+    margin: auto;
+}
+
+/* Page principale */
+#Main {
+    background-image: url(../photo/guitars.jpeg)
+}
+
+#Right {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    float: right;
+
+}
+
+#Left {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    float: left;
+}
+
+footer {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    border: 2px solid black;
+    width: auto;
+    margin: auto;
+    vertical-align: center;
+}
